@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PotHole Rectifier</string>
+    <string name="public_text">Public</string>
+    <string name="govt_text">Government</string>
+    <string name="title_activity_govenment_home">Govenment Home</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_government_home">GovernmentHome</string>
+    <string name="add_pothole">add pothole</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

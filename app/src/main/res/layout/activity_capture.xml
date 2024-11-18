@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CaptureActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/logo_blue"
+        android:layout_margin="@dimen/d15"
+        android:text="Image : click on image to capture"
+        android:textSize="@dimen/d20"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/d15"
+        android:layout_height="150dp"
+        android:id="@+id/complete_image_view"
+        android:layout_gravity="center"
+        android:src="@drawable/dummy_image"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mark_as_complete_submit_button"
+        android:layout_margin="10sp"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"
+        android:text="Mark as Completed"/>
+
+
+</LinearLayout>

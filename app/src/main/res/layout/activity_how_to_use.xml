@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HowToUseActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/logo_blue"
+        android:layout_margin="@dimen/d50"
+        android:text="How To Use App?"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/d20"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/how_to_use_text"
+        android:layout_margin="@dimen/d20"
+
+        />
+
+
+
+</LinearLayout>

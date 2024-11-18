@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewPotHoleActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/logo_blue"
+                android:layout_margin="@dimen/d15"
+                android:text="Image :"
+                android:textSize="@dimen/d20"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="@dimen/d15"
+                android:layout_height="150dp"
+                android:id="@+id/add_pot_hole_image_view"
+                android:layout_gravity="center"
+                android:src="@drawable/dummy_image"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/logo_blue"
+                android:layout_margin="@dimen/d15"
+                android:text="Current Location:"
+                android:textSize="@dimen/d20"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/d15"
+
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/d20"
+                android:minLines="2"
+                android:hint="location"
+                android:id="@+id/current_location_text_view"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/d15"
+
+                android:textColor="@color/logo_blue"
+                android:text="Locality:"
+                android:textSize="@dimen/d20"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/d15"
+                android:id="@+id/locality_spinner_text_view"
+                android:text="Locality:"
+                android:textSize="@dimen/d20"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/logo_blue"
+                android:layout_margin="@dimen/d15"
+                android:text="Landmark:"
+                android:textSize="@dimen/d20"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/d15"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/d20"
+                android:minLines="2"
+                android:hint="landmark"
+                android:id="@+id/landmark_text_view"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/logo_blue"
+                android:layout_margin="@dimen/d15"
+                android:text="Status:"
+                android:textSize="@dimen/d20"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/d15"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/d20"
+                android:minLines="2"
+                android:hint="enter landmark"
+                android:id="@+id/status_text_view"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/view_pot_hole_button"
+                android:layout_margin="10sp"
+                android:textColor="@color/white"
+                android:background="@color/colorAccent"
+                android:text="Mark as Inprogress"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/completed_data"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/d15"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/d20"
+            android:minLines="2"
+            android:hint="Completed At: "
+            android:id="@+id/completed_time_text_view"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="@dimen/d15"
+            android:layout_height="150dp"
+            android:id="@+id/completed_pot_hole_image_view"
+            android:layout_gravity="center"
+            android:src="@drawable/dummy_image"/>
+
+    </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
